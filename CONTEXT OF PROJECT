@@ -1,1 +1,69 @@
 
+BUSINESS PROBLEM
+
+In many organizations, onboarding and offboarding are repetitive, manual processes that can lead to:
+
+Delays in providing access to new employees.
+Human error when assigning permissions or licenses.
+Security risks caused by inactive accounts remaining enabled.
+Inconsistent documentation and audit trails.
+Increased workload for IT support teams.
+
+This project demonstrates how automation can improve efficiency, standardize administrative tasks, and reduce operational risk.
+
+OBJECTIVES
+
+The project aims to:
+
+Automate user provisioning using PowerShell.
+Reduce manual administrative tasks.
+Standardize onboarding and offboarding procedures.
+Improve security by ensuring timely account deactivation.
+Generate logs for auditing and troubleshooting.
+Demonstrate practical Microsoft 365 administration skills.
+Showcase scripting and automation capabilities relevant to IT Support and Systems Administration roles.
+
+Key Features
+Employee Onboarding
+Import new employee information from a CSV file.
+Create Microsoft 365 user accounts.
+Assign licenses based on department or role.
+Add users to security groups and distribution lists.
+Configure mailbox settings.
+Generate temporary passwords.
+Record all actions in a log file.
+
+Employee Offboarding
+Disable user accounts.
+Remove Microsoft 365 licenses.
+Remove security group memberships.
+Hide mailboxes from the Global Address List.
+Configure email forwarding or mailbox conversion where required.
+Generate an audit report detailing completed actions.
+
+Technologies Used
+PowerShell 7
+Microsoft Graph PowerShell SDK
+Microsoft 365 Admin Center
+Microsoft Entra ID
+Exchange Online PowerShell
+CSV Data Import/Export
+Git & GitHub
+Visual Studio Code
+
+Skills Demonstrated
+PowerShell scripting
+Microsoft 365 administration
+Identity and Access Management (IAM)
+User provisioning and deprovisioning
+Automation of administrative processes
+Error handling and input validation
+Logging and auditing
+Technical documentation
+Troubleshooting
+IT operational support
+Version control with Git
+
+Expected Outcome
+This project demonstrates the ability to automate core IT support tasks commonly performed by Help Desk Analysts, IT Support Specialists, and Junior Systems Administrators.
+It highlights practical experience in Microsoft 365 administration, PowerShell scripting, and process automation while emphasizing secure user lifecycle management and operational efficiency.
