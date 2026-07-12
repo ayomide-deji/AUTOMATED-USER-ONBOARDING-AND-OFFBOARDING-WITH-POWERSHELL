@@ -1,1 +1,52 @@
-WORKFLOW
+ONBOARDING WORKFLOW                                                                                      
+HR submits new employee details
+          │
+          ▼
+PowerShell reads CSV
+          │
+          ▼
+Creates user
+          │
+          ▼
+Assigns license
+          │
+          ▼
+Adds department groups
+          │
+          ▼
+Creates mailbox
+          │
+          ▼
+Enables MFA
+          │
+          ▼
+Creates log file
+          │
+          ▼
+Sends confirmation
+
+
+OFFBOARDING WORKFLOW
+
+HR submits departure request
+         │
+         ▼
+PowerShell reads employee
+         │
+         ▼
+Disable account
+         │
+         ▼
+Reset password
+         │
+         ▼
+Remove licenses
+         │
+         ▼
+Remove groups
+         │
+         ▼
+Forward mailbox
+         │
+         ▼
+Generate report
